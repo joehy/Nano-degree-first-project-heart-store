@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+    <data>
+        <variable
+            name="heartListingsViewModel"
+            type="com.service.hearstore.ui.heart_list.HeartListViewModel" />
+        <variable
+            name="heart"
+            type="com.service.hearstore.data.model.HeartModel" />
+    </data>
+
+    <!-- Constraint Layout because I prefer to have the items place set in place but still adjust with the size of the screen -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.add_heart.AddNewHeart">
+        <TextView
+            android:id="@+id/heart_details_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/heart_details_header"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/heart_name_textview"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/heart_name"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heart_details_header" />
+
+        <EditText
+            android:id="@+id/heart_name"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/enter_heart_name"
+            android:textColorHint="#757575"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:text="@={heart.name}"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/heart_name_textview"
+            app:layout_constraintTop_toBottomOf="@+id/heart_details_header" />
+
+        <TextView
+            android:id="@+id/company_name_textview"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/company_name"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heart_name_textview" />
+        <EditText
+            android:id="@+id/company_name"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="#757575"
+            android:hint="@string/enter_company_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:text="@={heart.company}"
+            app:layout_constraintStart_toEndOf="@+id/company_name_textview"
+            app:layout_constraintTop_toBottomOf="@+id/heart_name" />
+        <TextView
+            android:id="@+id/heart_size_textview"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/heart_size"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_name_textview" />
+        <EditText
+            android:id="@+id/heart_size"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="#757575"
+            android:hint="@string/enter_heart_size"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:text="@={heart.size}"
+            app:layout_constraintStart_toEndOf="@+id/heart_size_textview"
+            app:layout_constraintTop_toBottomOf="@+id/company_name" />
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:text="@string/description"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heart_size" />
+
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:ems="10"
+            android:textColorHint="#757575"
+            android:hint="@string/enter_description"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine|text"
+            android:text="@={heart.description}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_textview" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+           />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

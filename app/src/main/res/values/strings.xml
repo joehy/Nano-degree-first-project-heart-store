@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">hearstore</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_navigationpage">Navigationpage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="logout">Logout</string>
+    <string name="add_heart">Add heart</string>
+    <string name="heart_details_header">Add heart Details</string>
+    <string name="heart_name">heart Name:</string>
+    <string name="enter_heart_name">Enter heart Name</string>
+    <string name="description">Description:</string>
+    <string name="company_name">Company Name:</string>
+    <string name="heart_size">heart Size:</string>
+    <string name="enter_company_name">Enter Company Name</string>
+    <string name="enter_heart_size">Enter heart Size</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="heart_name_hint">heart Name</string>
+    <string name="company_name_hint">Company Name</string>
+    <string name="heart_size_hint">heart Size</string>
+    <string name="description_hint">Description</string>
+    <string name="menu_home">HeartList</string>
+    <string name="menu_gallery">AddItem</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="instructions_step_one">1. Tap the + icon to add a new Heart item to your inventory</string>
+    <string name="instructions_step_two">2. Tap the Save Button to save the Heart to your inventory</string>
+    <string name="next_button">Next</string>
+    <string name="welcome_header">Welcome to the Heart  App!</string>
+    <string name="welcome_body">Here you can store and retrieve Heart information </string>
+    <string name="instructions_header">Instructions</string>
+    <string name="previous_button">Previous</string>
+    <string name="add_item">add item</string>
+
+</resources>

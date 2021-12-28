@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/hearstore/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.25234375" />
+        <entry key="..\:/hearstore/app/src/main/res/layout-w1240dp/heart_item_list.xml" value="0.23984375" />
+        <entry key="..\:/hearstore/app/src/main/res/layout-w936dp/fragment_login.xml" value="0.153125" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/activity_navigationpage.xml" value="0.2" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/app_bar_navigationpage.xml" value="0.19010416666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/content_navigationpage.xml" value="0.18" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_add_heart.xml" value="0.22" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_heart_list.xml" value="0.15" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_login.xml" value="0.16" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/heart_list_item.xml" value="0.22" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/instructions_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/nav_header_navigationpage.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/layout/welcome_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/hearstore/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
+        <entry key="..\:/hearstore/app/src/main/res/menu/navigationpage.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
